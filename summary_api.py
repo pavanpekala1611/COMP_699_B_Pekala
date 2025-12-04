@@ -16,7 +16,7 @@ app.add_middleware(
 
 DATA_PATH = Path(__file__).parent / "all_merged.csv"
 # Or, if you insist on an absolute path, make sure this is REAL:
-DATA_PATH = Path("/Users/pavan/Documents/Capstone_Project/Dataset/all_merged.csv")
+DATA_PATH = Path('/Users/pavan/Documents/Capstone_Project/Dataset /all_merged.csv')
 
 @app.get("/rtmms_dashboard/summary")
 def get_summary():
